@@ -24,6 +24,6 @@ Block.createBlock("waystone",
 }
 );
 //присвоение материала блоку
-ToolAPI.registerBlockMateri(
-  BlockID.waystone, "stone", 2
+ToolAPI.registerBlockMaterial(
+  BlockID.waystone, "stone", 2, true
 );
