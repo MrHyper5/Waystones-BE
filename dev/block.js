@@ -1,6 +1,6 @@
 //регистрация специального типа блока
 /*
-var Obelisk = Block.createSpecialType({
+var Waystone = Block.createSpecialType({
      lightlevel: 3,
      lightopacity: 15,
      explosionres: 9,
@@ -8,11 +8,11 @@ var Obelisk = Block.createSpecialType({
 });
 */
 //регистрация айди блока
-IDRegistry.genBlockID("obelisk");
+IDRegistry.genBlockID("waystone");
 //создание блока
-Block.createBlock("obelisk",
+Block.createBlock("waystone",
 [
-	{name: "obelisk", texture: [[
+	{name: "waystone", texture: [[
 	  "plants", 0
 ]], inCreative: true}
 ],
@@ -25,5 +25,5 @@ Block.createBlock("obelisk",
 );
 //присвоение материала блоку
 ToolAPI.registerBlockMateri(
-  BlockID.obelisk, "stone", 2
+  BlockID.waystone, "stone", 2
 );
