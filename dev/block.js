@@ -11,3 +11,7 @@ IDRegistry.genBlockID("obelisk");
 Block.createBlock("obelisk", [
 	{name: "obelisk", texture: [["kk", 4]], inCreative: true}
 ], Obelisk);
+
+ToolAPI.registerBlockMateri(
+  BlockID.myBlock, "stone", 1
+);
