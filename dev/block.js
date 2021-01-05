@@ -13,7 +13,7 @@ IDRegistry.genBlockID("waystone");
 Block.createBlock("waystone",
 [
 	{name: "waystone", texture: [[
-	  "plants", 0
+	  "planks", 0
 ]], inCreative: true}
 ],
 {
