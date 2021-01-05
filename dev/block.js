@@ -1,10 +1,12 @@
 //регистрация специального типа блока
+/*
 var Obelisk = Block.createSpecialType({
      lightlevel: 3,
      lightopacity: 15,
      explosionres: 9,
      destroytime: 2
 });
+*/
 //регистрация айди блока
 IDRegistry.genBlockID("obelisk");
 //создание блока
@@ -14,7 +16,13 @@ Block.createBlock("obelisk",
 	  "plants", 0
 ]], inCreative: true}
 ],
-Obelisk);
+{
+     lightlevel: 3,
+     lightopacity: 15,
+     explosionres: 9,
+     destroytime: 2
+}
+);
 //присвоение материала блоку
 ToolAPI.registerBlockMateri(
   BlockID.obelisk, "stone", 2
